@@ -1,0 +1,10 @@
+import java.util.*;
+class Gee{
+public static void main(String[] args){
+int n = new Random().nextInt(100) + 1, gee;
+Scanner s = new Scanner(System.in);
+System.out.print("Guess (1-100): ");
+gee = s.nextInt();
+System.out.println(gee == n ? "correct" : gee < n ? "too low" : "too high");
+}
+}
